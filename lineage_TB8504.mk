@@ -28,8 +28,8 @@ $(call inherit-product, device/lenovo/TB8504/device.mk)
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := TB8504
 PRODUCT_MANUFACTURER := Lenovo
-PRODUCT_MODEL := Lenovo TB-8504X
-PRODUCT_NAME := lineage_TB8704
+PRODUCT_MODEL := Lenovo TB-8504F
+PRODUCT_NAME := lineage_TB8504
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
