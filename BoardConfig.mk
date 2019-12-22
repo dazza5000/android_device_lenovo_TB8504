@@ -14,7 +14,13 @@
 # limitations under the License.
 #
 
+# inherit from common tb-common
+-include device/lenovo/tb-common/BoardConfigCommon.mk
+
 DEVICE_PATH := device/lenovo/TB8504
+
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := TB-8504X,TB-8504F
 
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
