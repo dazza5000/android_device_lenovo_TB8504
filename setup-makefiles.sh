@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=rolex
-VENDOR=xiaomi
+DEVICE=TB8504
+VENDOR=lenovo
 
 INITIAL_COPYRIGHT_YEAR=2018
 
@@ -40,7 +40,7 @@ fi
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT"
 
 # Copyright headers and guards
-write_headers "rolex"
+write_headers "TB8504"
 
 # The standard device blobs
 write_makefiles "$MY_DIR"/proprietary-files.txt true
