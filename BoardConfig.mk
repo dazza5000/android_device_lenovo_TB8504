@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# inherit from common tb-common
--include device/lenovo/tb-common/BoardConfigCommon.mk
-
 DEVICE_PATH := device/lenovo/TB8504
 
 # Asserts
