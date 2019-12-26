@@ -25,4 +25,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 include $(DEVICE_PATH)/product/*.mk
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/lenovo/TB8504/rolex-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/TB8504/TB8504-vendor.mk)
